@@ -1,3 +1,4 @@
+import Marquee from "@/components/Marquee/Marquee";
 import HeroSection from "@/components/hero/HeroSection";
 import { IProducts } from "@/interfaces/products";
 
@@ -24,6 +25,7 @@ export default function Home() {
   return (
     <>
       <HeroSection items={items} />
+      <Marquee />
     </>
   );
 }

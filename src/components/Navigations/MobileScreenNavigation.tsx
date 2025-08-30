@@ -1,7 +1,6 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 import ImageSliderCounter from '@/components/ImageSliderCounter/ImageSliderCounter'
-import { Button } from '../ui/button'
-
+import { Button } from '@/components/ui/button'
 
 interface IProps {
     onNext: () => void

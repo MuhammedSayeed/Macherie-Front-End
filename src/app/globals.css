@@ -72,3 +72,19 @@
 
   }
 }
+
+@keyframes move-left {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@layer utilities {
+  .animate-move-left {
+    animation: move-left 20s linear infinite;
+  }
+}
