@@ -1,8 +1,8 @@
 "use client"
 import Link from "next/link"
-import CartButton from "./CartButton"
-import MenuButton from "../menu/MenuButton"
-import CatalogButton from "../catalog/CatalogButton"
+import CartButton from "@/components/Navbar/CartButton"
+import MenuButton from "@/components/menu/MenuButton"
+import CatalogButton from "@/components/catalog/CatalogButton"
 import useScroll from "@/hooks/useScroll"
 import clsx from "clsx"
 

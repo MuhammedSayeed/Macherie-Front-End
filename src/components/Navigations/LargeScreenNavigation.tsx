@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button } from '../ui/button'
+import { Button } from '@/components/ui/button'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
-import ImageSliderCounter from '../ImageSliderCounter/ImageSliderCounter'
+import ImageSliderCounter from '@/components/ImageSliderCounter/ImageSliderCounter'
 import clsx from 'clsx'
 
 

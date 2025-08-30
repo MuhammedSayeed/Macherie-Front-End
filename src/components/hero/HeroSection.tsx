@@ -1,14 +1,14 @@
 "use client"
-import { Button } from "../ui/button"
+import { Button } from "@/components/ui/button"
 import { ArrowUpRight } from "lucide-react"
-import Rings from "./Rings"
-import HeroTitle from "./HeroTitle"
-import MobileScreenNavigation from "../Navigations/MobileScreenNavigation"
-import CarouselImages from "./CarouselImages"
+import Rings from "@/components/hero/Rings"
+import HeroTitle from "@/components/hero/HeroTitle"
+import MobileScreenNavigation from "@/components/Navigations/MobileScreenNavigation"
+import CarouselImages from "@/components/hero/CarouselImages"
 import useHeroImageCarousel from "@/hooks/useHeroImageCarousel"
-import LargeScreenNavigation from "../Navigations/LargeScreenNavigation"
+import LargeScreenNavigation from "@/components/Navigations/LargeScreenNavigation"
 import { IProducts } from "@/interfaces/products"
-import HeroItemPrice from "./HeroItemPrice"
+import HeroItemPrice from "@/components/hero/HeroItemPrice"
 
 interface IProps {
     items: IProducts[],
@@ -24,7 +24,7 @@ const HeroSection = ({ items }: IProps) => {
             <div className="absolute inset-0 z-[3] w-full h-full grid grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
                 <div className="flex flex-col h-fit gap-4 lg:gap-6 w-fit lg:w-full lg:h-full pl-4 md:pl-6 lg:pl-30 pt-25 md:pt-48 text-primary text-lg">
                     <HeroTitle title={items[currentIndex].title} />
-                    <HeroItemPrice price={items[currentIndex].price} key={currentIndex} />
+                    <HeroItemPrice price={items[currentIndex].price} animationKey={currentIndex} />
                     <div className="w-full md:flex md:justify-center">
                         <Button variant={"primaryLight"} className="rounded-full size-15 md:size-20 lg:size-25 ">
                             <ArrowUpRight className="size-8 md:size-10 lg:size-12 " />
