@@ -1,3 +1,4 @@
+import AboutSection from "@/components/About/AboutSection";
 import Marquee from "@/components/Marquee/Marquee";
 import HeroSection from "@/components/hero/HeroSection";
 import { IProducts } from "@/interfaces/products";
@@ -26,6 +27,7 @@ export default function Home() {
     <>
       <HeroSection items={items} />
       <Marquee />
+      <AboutSection />
     </>
   );
 }
