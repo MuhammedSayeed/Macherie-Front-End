@@ -12,15 +12,8 @@ const Marquee = () => {
     const x = useTransform(scrollYProgress, [0, 1], [0, -300]);
 
     return (
-        <div
-            ref={ref}
-            className="relative w-full mx-auto overflow-x-clip bg-primary-light py-6"
-            dir="ltr"
-        >
-            <motion.div
-                style={{ x }}
-                className="w-fit mx-auto flex items-center gap-12"
-            >
+        <div ref={ref} className="relative w-full mx-auto overflow-x-clip bg-primary py-6" >
+            <motion.div style={{ x }} className="w-fit mx-auto flex items-center gap-12">
                 <span className="hidden lg:block text-3xl font-medium text-right">
                     <span className="block">Crafted for Kings</span>
                     <span className="block">MEN'S CLOTHING WEAR</span>
