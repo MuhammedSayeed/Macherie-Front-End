@@ -1,0 +1,1 @@
+export const bg = "https://res.cloudinary.com/dndjbkrcv/image/upload/v1757165416/background_rk6t9c.jpg"

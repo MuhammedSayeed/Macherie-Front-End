@@ -90,3 +90,19 @@
     animation: move-left 20s linear infinite;
   }
 }
+
+@keyframes floatY {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-floatY {
+  animation: floatY 2s ease-in-out infinite;
+}
