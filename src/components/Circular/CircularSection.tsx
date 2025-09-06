@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const CircularSection = () => {
     return (
-        <div style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} className='min-h-screen flex justify-center items-center overflow-x-clip'>
+        <div style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} className='min-h-[1000px] flex justify-center items-center overflow-x-clip'>
             <div className="relative">
                 <CircularPath />
                 <div className="absolute inset-0 flex justify-center items-center animate-floatY">
