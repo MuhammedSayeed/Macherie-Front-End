@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 const useHeroImageCarousel = (totalImages: number) => {
   const [currentIndex, setCurrentIndex] = useState(0)

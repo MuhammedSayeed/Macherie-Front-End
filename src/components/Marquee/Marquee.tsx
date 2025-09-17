@@ -16,12 +16,12 @@ const Marquee = () => {
             <motion.div style={{ x }} className="w-fit mx-auto flex items-center gap-12">
                 <span className="hidden lg:block text-3xl font-medium text-right">
                     <span className="block">Crafted for Kings</span>
-                    <span className="block">MEN'S CLOTHING WEAR</span>
+                    <span className="block">MEN&apos;S CLOTHING WEAR</span>
                 </span>
                 <span className="block text-4xl lg:text-5xl font-medium">#MACHERIE</span>
                 <span className="hidden lg:block text-3xl font-medium">
                     <span className="block">Crafted for Kings</span>
-                    <span className="block">MEN'S CLOTHING WEAR</span>
+                    <span className="block">MEN&apos;S CLOTHING WEAR</span>
                 </span>
             </motion.div>
         </div>

@@ -1,6 +1,6 @@
 import { bg } from '@/constants/imgs'
 import React from 'react'
-import CircularPath from './CircularPath'
+import CircularPath from '@/components/Circular/CircularPath'
 import Image from 'next/image'
 
 const CircularSection = () => {
